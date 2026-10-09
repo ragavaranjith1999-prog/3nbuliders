@@ -1,0 +1,2290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3N Builders & Construction Services | Premium Building Solutions</title>
+    
+    <!-- SEO & Metadata -->
+    <meta name="description" content="3N Builders provides top-tier residential & commercial construction, interiors, painting, electrical, plumbing, carpentry, iron work, and cleaning services.">
+    <meta name="keywords" content="builders, construction company, building contractor, construction services, building work, carpenter work, painting work, interior work, electrical work, plumbing work, cleaning work, iron work">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="3N Builders">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="3N Builders & Construction Services">
+    <meta property="og:description" content="Building Strong Foundations. Creating Better Futures. Professional construction & building solutions.">
+    <meta property="og:image" content="/assets/logo.png">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="3N Builders & Construction Services">
+    <meta name="twitter:description" content="Professional construction, renovation, interior, and electrical services.">
+    <meta name="twitter:image" content="/assets/logo.png">
+
+    <!-- JSON-LD Structured Data for LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ConstructionBusiness",
+      "name": "3N Builders & Construction Services",
+      "image": "assets/logo.png",
+      "@id": "https://3nbuilders.com",
+      "url": "https://3nbuilders.com",
+      "telephone": "+916374006026",
+      "priceRange": "₹15 - ₹350 per sq.ft (Labour)",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Main Commercial Highway",
+        "addressLocality": "madurai",
+        "addressRegion": "TN",
+        "postalCode": "625002",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 11.0168,
+        "longitude": 76.9558
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+        ],
+        "opens": "08:00",
+        "closes": "19:00"
+      },
+      "sameAs": [
+        "https://instagram.com/3nbuilders",
+        "https://facebook.com/3nbuilders"
+      ]
+    }
+    </script>
+
+    <style>
+        /* Modern CSS Variables & Design System */
+        :root {
+            --primary: #0F172A;        /* Deep Navy Slate */
+            --primary-light: #1E293B;  /* Lighter Navy */
+            --accent: #F59E0B;         /* Vibrant Gold/Amber Accent */
+            --accent-hover: #D97706;   /* Dark Gold */
+            --surface: #FFFFFF;        /* Pure White Surface */
+            --surface-alt: #F8FAFC;    /* Soft Off-White */
+            --text-dark: #0F172A;      /* Main Heading Text */
+            --text-body: #334155;      /* Reading Body Text */
+            --text-muted: #64748B;     /* Muted Subtitles */
+            --border: #E2E8F0;         /* Soft Border Line */
+            --shadow-sm: 0 2px 4px rgba(15, 23, 42, 0.05);
+            --shadow-md: 0 10px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
+            --shadow-lg: 0 20px 30px -10px rgba(15, 23, 42, 0.15);
+            --radius-sm: 6px;
+            --radius-md: 12px;
+            --radius-lg: 20px;
+            --radius-full: 9999px;
+            --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Universal Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: var(--font-main);
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            background-color: var(--surface-alt);
+            color: var(--text-body);
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        button, input, select, textarea {
+            font-family: inherit;
+            outline: none;
+        }
+
+        button {
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+
+        /* Container & Grid Utilities */
+        .container {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .section-padding {
+            padding: 5rem 0;
+        }
+
+        .text-center { text-align: center; }
+        .text-accent { color: var(--accent); }
+        
+        .section-title-tag {
+            display: inline-block;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: var(--accent);
+            background: rgba(245, 158, 11, 0.1);
+            padding: 0.35rem 1rem;
+            border-radius: var(--radius-full);
+            margin-bottom: 0.75rem;
+        }
+
+        .section-title {
+            font-size: 2.25rem;
+            font-weight: 800;
+            color: var(--text-dark);
+            line-height: 1.25;
+            margin-bottom: 1rem;
+        }
+
+        .section-subtitle {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            max-width: 650px;
+            margin: 0 auto 3rem auto;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--surface-alt);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #CBD5E1;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--accent);
+        }
+
+        /* Header & Sticky Navigation */
+        .site-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            transition: var(--transition);
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .site-header.scrolled {
+            background: var(--primary);
+            box-shadow: var(--shadow-md);
+            border-bottom: 1px solid transparent;
+        }
+
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 80px;
+        }
+
+        .logo-box {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .logo-img {
+            height: 42px;
+            width: auto;
+            border-radius: var(--radius-sm);
+            object-fit: contain;
+        }
+
+        .nav-menu {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-link {
+            color: #CBD5E1;
+            font-weight: 500;
+            font-size: 0.95rem;
+            position: relative;
+            padding: 0.5rem 0;
+            transition: var(--transition);
+        }
+
+        .nav-link:hover, .nav-link.active {
+            color: #FFFFFF;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0%;
+            height: 2px;
+            background: var(--accent);
+            transition: var(--transition);
+        }
+
+        .nav-link:hover::after, .nav-link.active::after {
+            width: 100%;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: var(--primary);
+            padding: 0.75rem 1.5rem;
+            font-weight: 700;
+            border-radius: var(--radius-md);
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            box-shadow: 0 4px 14px rgba(245, 158, 11, 0.3);
+        }
+
+        .btn-primary:hover {
+            background: var(--accent-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(245, 158, 11, 0.4);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: #FFFFFF;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            padding: 0.75rem 1.5rem;
+            font-weight: 600;
+            border-radius: var(--radius-md);
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            backdrop-filter: blur(4px);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-color: #FFFFFF;
+            transform: translateY(-2px);
+        }
+
+        .hamburger-btn {
+            display: none;
+            flex-direction: column;
+            gap: 6px;
+            width: 30px;
+            padding: 4px;
+            cursor: pointer;
+            z-index: 1001;
+        }
+
+        .hamburger-line {
+            width: 100%;
+            height: 2px;
+            background: #FFFFFF;
+            border-radius: 2px;
+            transition: var(--transition);
+        }
+
+        /* Mobile Drawer */
+        .mobile-drawer {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 80%;
+            max-width: 340px;
+            height: 100vh;
+            background: var(--primary);
+            padding: 6rem 2rem 2rem 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+            transition: var(--transition);
+            z-index: 999;
+        }
+
+        .mobile-drawer.open {
+            right: 0;
+        }
+
+        .drawer-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.6);
+            backdrop-filter: blur(4px);
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+            z-index: 998;
+        }
+
+        .drawer-overlay.open {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* Page Routing Animations */
+        .page-view {
+            display: none;
+            opacity: 0;
+            transform: scale(0.98) translateY(10px);
+            transition: opacity 0.4s ease, transform 0.4s ease;
+            min-height: calc(100vh - 80px);
+            padding-top: 80px;
+        }
+
+        .page-view.active-page {
+            display: block;
+            opacity: 1;
+            transform: scale(1) translateY(0);
+        }
+
+        /* Hero Section */
+        .hero-section {
+            background: linear-gradient(135deg, var(--primary) 0%, #1E293B 100%);
+            color: #FFFFFF;
+            padding: 5rem 0 6rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .badge-location {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(245, 158, 11, 0.15);
+            color: var(--accent);
+            padding: 0.4rem 1rem;
+            border-radius: var(--radius-full);
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 1.25rem;
+            border: 1px solid rgba(245, 158, 11, 0.3);
+        }
+
+        .hero-headline {
+            font-size: 3.25rem;
+            font-weight: 900;
+            line-height: 1.15;
+            margin-bottom: 1.25rem;
+            letter-spacing: -1px;
+        }
+
+        .hero-subtext {
+            font-size: 1.15rem;
+            color: #94A3B8;
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+
+        .hero-benefits-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.75rem 1.5rem;
+            margin-bottom: 2.5rem;
+            list-style: none;
+        }
+
+        .hero-benefits-list li {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.95rem;
+            color: #CBD5E1;
+        }
+
+        .hero-benefits-list li svg {
+            color: var(--accent);
+            flex-shrink: 0;
+        }
+
+        .hero-cta-group {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        /* Hero Local Video Frame */
+        .hero-video-wrapper {
+            position: relative;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            background: #000000;
+            aspect-ratio: 16/10;
+        }
+
+        .hero-video-wrapper video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .video-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(15,23,42,0.1) 0%, rgba(15,23,42,0.4) 100%);
+            pointer-events: none;
+        }
+
+        /* Trust Stats Bar */
+        .stats-bar {
+            background: var(--surface);
+            margin-top: -3rem;
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-lg);
+            padding: 2.5rem 2rem;
+            position: relative;
+            z-index: 10;
+            border: 1px solid var(--border);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+            text-align: center;
+        }
+
+        .stat-item {
+            padding: 0 1rem;
+            border-right: 1px solid var(--border);
+        }
+
+        .stat-item:last-child {
+            border-right: none;
+        }
+
+        .stat-number {
+            font-size: 2.75rem;
+            font-weight: 900;
+            color: var(--primary);
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-number span {
+            color: var(--accent);
+        }
+
+        .stat-label {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Services Cards */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .service-card {
+            background: var(--surface);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border);
+            overflow: hidden;
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-lg);
+            border-color: rgba(245, 158, 11, 0.4);
+        }
+
+        .service-img-box {
+            position: relative;
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .service-img-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .service-card:hover .service-img-box img {
+            transform: scale(1.08);
+        }
+
+        .service-badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: var(--primary);
+            color: var(--accent);
+            font-size: 0.75rem;
+            font-weight: 800;
+            padding: 0.35rem 0.75rem;
+            border-radius: var(--radius-sm);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .service-content {
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .service-title {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: var(--text-dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .service-price {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--accent);
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: baseline;
+            gap: 0.3rem;
+        }
+
+        .service-price .labour-tag {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            font-weight: 600;
+            background: var(--surface-alt);
+            padding: 0.1rem 0.5rem;
+            border-radius: 4px;
+            border: 1px solid var(--border);
+        }
+
+        .service-desc {
+            font-size: 0.95rem;
+            color: var(--text-body);
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+            line-height: 1.5;
+        }
+
+        .disclaimer-banner {
+            background: rgba(245, 158, 11, 0.1);
+            border-left: 4px solid var(--accent);
+            padding: 1rem 1.25rem;
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            margin-top: 2.5rem;
+            font-size: 0.9rem;
+            color: #78350F;
+        }
+
+        /* Testimonials Carousel */
+        .reviews-container {
+            position: relative;
+            max-width: 850px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .reviews-wrapper {
+            display: flex;
+            transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+        }
+
+        .review-card {
+            min-width: 100%;
+            background: var(--surface);
+            padding: 3rem 2.5rem;
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow-md);
+            text-align: center;
+        }
+
+        .stars-row {
+            color: var(--accent);
+            display: flex;
+            justify-content: center;
+            gap: 4px;
+            margin-bottom: 1.25rem;
+            font-size: 1.25rem;
+        }
+
+        .review-quote {
+            font-size: 1.15rem;
+            font-style: italic;
+            color: var(--text-dark);
+            margin-bottom: 1.5rem;
+            line-height: 1.7;
+        }
+
+        .reviewer-info {
+            font-weight: 700;
+            color: var(--primary);
+            font-size: 1rem;
+        }
+
+        .reviewer-service {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .carousel-controls {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .carousel-btn {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            color: var(--primary);
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+        }
+
+        .carousel-btn:hover {
+            background: var(--primary);
+            color: #FFFFFF;
+            border-color: var(--primary);
+        }
+
+        .google-review-cta {
+            margin-top: 3.5rem;
+            background: var(--primary);
+            color: #FFFFFF;
+            padding: 2.5rem 2rem;
+            border-radius: var(--radius-md);
+            text-align: center;
+            box-shadow: var(--shadow-md);
+        }
+
+        /* Gallery Filter Grid */
+        .filter-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            margin-bottom: 2.5rem;
+        }
+
+        .filter-btn {
+            padding: 0.6rem 1.25rem;
+            border-radius: var(--radius-full);
+            border: 1px solid var(--border);
+            background: var(--surface);
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            transition: var(--transition);
+        }
+
+        .filter-btn:hover, .filter-btn.active {
+            background: var(--primary);
+            color: #FFFFFF;
+            border-color: var(--primary);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .gallery-item {
+            position: relative;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            aspect-ratio: 4/3;
+            cursor: pointer;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .gallery-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(0deg, rgba(15,23,42,0.8) 0%, rgba(15,23,42,0) 60%);
+            display: flex;
+            align-items: flex-end;
+            padding: 1.25rem;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .gallery-item:hover .gallery-overlay {
+            opacity: 1;
+        }
+
+        .gallery-title {
+            color: #FFFFFF;
+            font-size: 1rem;
+            font-weight: 700;
+        }
+
+        /* Lightbox Modal */
+        .lightbox-modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(8px);
+            z-index: 2000;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .lightbox-modal.active {
+            display: flex;
+        }
+
+        .lightbox-content {
+            position: relative;
+            max-width: 900px;
+            max-height: 85vh;
+            width: 100%;
+        }
+
+        .lightbox-content img {
+            width: 100%;
+            height: auto;
+            max-height: 80vh;
+            object-fit: contain;
+            border-radius: var(--radius-sm);
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: -40px;
+            right: 0;
+            color: #FFFFFF;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+
+        .lightbox-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 50px;
+            height: 50px;
+            background: rgba(255,255,255,0.2);
+            color: #FFFFFF;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .lightbox-nav:hover {
+            background: var(--accent);
+            color: var(--primary);
+        }
+
+        .lightbox-prev { left: -60px; }
+        .lightbox-next { right: -60px; }
+
+        /* Project Portfolio */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background: var(--surface);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+        }
+
+        .project-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .project-img-box {
+            position: relative;
+            height: 220px;
+        }
+
+        .project-img-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .project-status {
+            position: absolute;
+            bottom: 1rem;
+            left: 1rem;
+            background: rgba(15, 23, 42, 0.85);
+            color: #FFFFFF;
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 0.3rem 0.75rem;
+            border-radius: 4px;
+            backdrop-filter: blur(4px);
+        }
+
+        .project-body {
+            padding: 1.5rem;
+        }
+
+        .project-title {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: var(--text-dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .project-meta {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+            display: flex;
+            gap: 1rem;
+        }
+
+        .project-desc {
+            font-size: 0.95rem;
+            color: var(--text-body);
+            margin-bottom: 1.25rem;
+        }
+
+        /* Contact Layout */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 3rem;
+        }
+
+        /* About Section Layout */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+            margin-bottom: 5rem;
+        }
+
+        /* Timeline */
+        .process-timeline {
+            position: relative;
+            max-width: 900px;
+            margin: 3rem auto 0 auto;
+        }
+
+        .process-timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            width: 2px;
+            background: var(--border);
+            transform: translateX(-50%);
+        }
+
+        .timeline-step {
+            position: relative;
+            margin-bottom: 2.5rem;
+            width: 50%;
+            padding: 0 2rem;
+        }
+
+        .timeline-step:nth-child(odd) {
+            left: 0;
+            text-align: right;
+        }
+
+        .timeline-step:nth-child(even) {
+            left: 50%;
+            text-align: left;
+        }
+
+        .step-number {
+            position: absolute;
+            top: 0;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--accent);
+            color: var(--primary);
+            font-weight: 900;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2;
+        }
+
+        .timeline-step:nth-child(odd) .step-number {
+            right: -20px;
+        }
+
+        .timeline-step:nth-child(even) .step-number {
+            left: -20px;
+        }
+
+        .step-card {
+            background: var(--surface);
+            padding: 1.5rem;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .step-title {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--text-dark);
+            margin-bottom: 0.5rem;
+        }
+
+        /* Booking & Contact Modal Styling */
+        .modal-backdrop {
+            position: fixed;
+            inset: 0;
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(6px);
+            z-index: 2000;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 1.5rem;
+            overflow-y: auto;
+        }
+
+        .modal-backdrop.open {
+            display: flex;
+        }
+
+        .modal-box {
+            background: var(--surface);
+            border-radius: var(--radius-lg);
+            width: 100%;
+            max-width: 600px;
+            padding: 2.5rem;
+            box-shadow: var(--shadow-lg);
+            position: relative;
+            border: 1px solid var(--border);
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .modal-close-btn {
+            position: absolute;
+            top: 1.25rem;
+            right: 1.25rem;
+            font-size: 1.5rem;
+            color: var(--text-muted);
+            cursor: pointer;
+            line-height: 1;
+        }
+
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 0.4rem;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border);
+            background: var(--surface-alt);
+            color: var(--text-dark);
+            font-size: 0.95rem;
+            transition: var(--transition);
+        }
+
+        .form-control:focus {
+            border-color: var(--accent);
+            background: var(--surface);
+            box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.2);
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .price-estimate-box {
+            background: rgba(245, 158, 11, 0.1);
+            border: 1px dashed var(--accent);
+            padding: 1.25rem;
+            border-radius: var(--radius-md);
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        .estimate-label {
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #78350F;
+        }
+
+        .estimate-amount {
+            font-size: 2.25rem;
+            font-weight: 900;
+            color: var(--primary);
+            margin: 0.2rem 0;
+        }
+
+        .estimate-note {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        /* Floating WhatsApp Action Button */
+        .floating-whatsapp {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 60px;
+            height: 60px;
+            background: #25D366;
+            color: #FFFFFF;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+            z-index: 990;
+            transition: var(--transition);
+            animation: pulse-ring 2s infinite;
+        }
+
+        .floating-whatsapp:hover {
+            transform: scale(1.1);
+        }
+
+        .floating-whatsapp svg {
+            width: 32px;
+            height: 32px;
+            fill: currentColor;
+        }
+
+        @keyframes pulse-ring {
+            0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6); }
+            70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+
+        /* Scroll To Top */
+        .scroll-to-top {
+            position: fixed;
+            bottom: 2rem;
+            left: 2rem;
+            width: 48px;
+            height: 48px;
+            background: var(--primary);
+            color: #FFFFFF;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: var(--shadow-md);
+            z-index: 990;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+        }
+
+        .scroll-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .scroll-to-top:hover {
+            background: var(--accent);
+            color: var(--primary);
+        }
+
+        /* Loading Screen */
+        .site-loader {
+            position: fixed;
+            inset: 0;
+            background: var(--primary);
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+        }
+
+        .loader-brand {
+            font-size: 2rem;
+            font-weight: 900;
+            color: #FFFFFF;
+            margin-top: 1rem;
+        }
+
+        .loader-brand span { color: var(--accent); }
+
+        .loader-progress-bar {
+            width: 200px;
+            height: 4px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 2px;
+            overflow: hidden;
+            margin-top: 1.5rem;
+        }
+
+        .loader-progress {
+            width: 0%;
+            height: 100%;
+            background: var(--accent);
+            transition: width 0.3s ease;
+        }
+
+        /* Footer */
+        .site-footer {
+            background: var(--primary);
+            color: #94A3B8;
+            padding: 4rem 0 2rem 0;
+            margin-top: auto;
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.5fr repeat(3, 1fr);
+            gap: 2.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .footer-col-title {
+            color: #FFFFFF;
+            font-size: 1.1rem;
+            font-weight: 800;
+            margin-bottom: 1.25rem;
+        }
+
+        .footer-links {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.6rem;
+        }
+
+        .footer-links a {
+            transition: var(--transition);
+            font-size: 0.9rem;
+        }
+
+        .footer-links a:hover {
+            color: var(--accent);
+        }
+
+        /* Footer Social Media Logos Styling */
+        .footer-socials {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+
+        .social-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            background: rgba(255, 255, 255, 0.08);
+            color: #CBD5E1;
+            border-radius: 50%;
+            transition: var(--transition);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .social-link:hover {
+            background: var(--accent);
+            color: var(--primary);
+            transform: translateY(-3px);
+        }
+
+        .social-link svg {
+            width: 18px;
+            height: 18px;
+            fill: currentColor;
+        }
+
+        .footer-bottom {
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 992px) {
+            .hero-grid { grid-template-columns: 1fr; text-align: center; }
+            .hero-benefits-list { justify-content: center; }
+            .hero-cta-group { justify-content: center; }
+            .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+            .stat-item { border-right: none; }
+            
+            /* About Page Mobile Responsiveness */
+            .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+            .process-timeline::before { left: 20px; }
+            .timeline-step { width: 100%; text-align: left !important; padding-left: 3.5rem; padding-right: 0; }
+            .timeline-step:nth-child(even) { left: 0; }
+            .timeline-step:nth-child(odd) .step-number, .timeline-step:nth-child(even) .step-number { left: 0 !important; right: auto !important; }
+            
+            .footer-grid { grid-template-columns: repeat(2, 1fr); }
+            .nav-menu { display: none; }
+            .hamburger-btn { display: flex; }
+            .contact-grid { grid-template-columns: 1fr; gap: 2rem; }
+        }
+
+        @media (max-width: 576px) {
+            .stats-grid { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr; }
+            .form-row { grid-template-columns: 1fr; }
+            .hero-headline { font-size: 2.25rem; }
+            .lightbox-nav { display: none; }
+            .section-padding { padding: 3rem 0; }
+            .section-title { font-size: 1.75rem; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation: none !important;
+                transition: none !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Site Loader -->
+    <div class="site-loader" id="siteLoader">
+        <img src="/asstes/logo.png" alt="3N Builders Logo" style="height: 60px; width: auto;" onerror="this.style.display='none'">
+        <div class="loader-brand">3N BUILDERS</div>
+        <div class="loader-progress-bar">
+            <div class="loader-progress" id="loaderProgress"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="site-header" id="siteHeader">
+        <div class="container">
+            <div class="header-inner">
+                <a href="#home" class="logo-box">
+                    <img src="/asstes/header logo.png" alt="3N Builders Company Logo" class="logo-img" onerror="this.style.display='none'">
+                </a>
+                
+
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="#home" class="nav-link active" data-route="home">Home</a></li>
+                        <li><a href="#services" class="nav-link" data-route="services">Services</a></li>
+                        <li><a href="#reviews" class="nav-link" data-route="reviews">Reviews</a></li>
+                        <li><a href="#gallery" class="nav-link" data-route="gallery">Gallery</a></li>
+                        <li><a href="#projects" class="nav-link" data-route="projects">Our Projects</a></li>
+                        <li><a href="#about" class="nav-link" data-route="about">About Us</a></li>
+                        <li><a href="#contact" class="nav-link" data-route="contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div style="display: flex; gap: 1rem; align-items: center;">
+                    <button class="btn-primary" onclick="openBookingModal()" style="display: var(--cta-display, inline-flex);">
+                        Get a Quote
+                    </button>
+                    <div class="hamburger-btn" id="hamburgerBtn" onclick="toggleMobileMenu()">
+                        <div class="hamburger-line"></div>
+                        <div class="hamburger-line"></div>
+                        <div class="hamburger-line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="drawer-overlay" id="drawerOverlay" onclick="toggleMobileMenu()"></div>
+    <div class="mobile-drawer" id="mobileDrawer">
+        <a href="#home" class="nav-link active" data-route="home" onclick="toggleMobileMenu()">Home</a>
+        <a href="#services" class="nav-link" data-route="services" onclick="toggleMobileMenu()">Services</a>
+        <a href="#reviews" class="nav-link" data-route="reviews" onclick="toggleMobileMenu()">Reviews</a>
+        <a href="#gallery" class="nav-link" data-route="gallery" onclick="toggleMobileMenu()">Gallery</a>
+        <a href="#projects" class="nav-link" data-route="projects" onclick="toggleMobileMenu()">Our Projects</a>
+        <a href="#about" class="nav-link" data-route="about" onclick="toggleMobileMenu()">About Us</a>
+        <a href="#contact" class="nav-link" data-route="contact" onclick="toggleMobileMenu()">Contact</a>
+        <button class="btn-primary" onclick="toggleMobileMenu(); openBookingModal();" style="margin-top: 1rem; width: 100%;">
+            Get a Quote
+        </button>
+    </div>
+
+    <!-- MAIN CONTENT CONTAINER FOR SINGLE PAGE ROUTES -->
+    <main id="mainContainer">
+
+        <!-- HOME PAGE VIEW -->
+        <section id="home-view" class="page-view active-page">
+            <div class="hero-section">
+                <div class="container">
+                    <div class="hero-grid">
+                        <div>
+                            <div class="badge-location">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                                <span id="heroLocation">Serving Madurai & Surrounding Areas</span>
+                            </div>
+                            <h1 class="hero-headline">Building Strong Foundations. Creating Better Futures.</h1>
+                            <p class="hero-subtext">
+                                Professional construction, renovation, interior, electrical, plumbing, and complete building solutions delivered by certified engineers and skilled craftspeople.
+                            </p>
+                            <ul class="hero-benefits-list">
+                                <li>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                    Skilled Workforce
+                                </li>
+                                <li>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                    Quality Workmanship
+                                </li>
+                                <li>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                    Transparent Pricing
+                                </li>
+                                <li>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                    On-Time Project Delivery
+                                </li>
+                            </ul>
+                            <div class="hero-cta-group">
+                                <button class="btn-primary" onclick="openBookingModal()">Book a Service</button>
+                                <a href="#projects" class="btn-secondary" onclick="navigateTo('projects')">View Our Projects</a>
+                            </div>
+                        </div>
+
+                        <!-- Local Video Frame -->
+                        <div class="hero-video-wrapper">
+                            <video autoplay muted loop playsinline poster="/asstes/logo.png">
+                                <source src="/asstes/hero-video.mp4" type="video/mp4">
+                                Your browser does not support HTML5 video.
+                            </video>
+                            <div class="video-overlay"></div>
+                        </div>
+                    </div>
+
+                    <!-- Trust / Statistics Bar -->
+                    <div class="stats-bar">
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <div class="stat-number"><span class="counter" data-target="500">0</span>+</div>
+                                <div class="stat-label">Projects Completed</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number"><span class="counter" data-target="10">0</span>+</div>
+                                <div class="stat-label">Years Experience</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number"><span class="counter" data-target="1000">0</span>+</div>
+                                <div class="stat-label">Happy Customers</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number"><span class="counter" data-target="8">0</span>+</div>
+                                <div class="stat-label">Professional Services</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES PAGE VIEW -->
+        <section id="services-view" class="page-view section-padding">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-title-tag">Our Expertise</span>
+                    <h2 class="section-title">Professional Construction Services</h2>
+                    <p class="section-subtitle">Transparent labour-only starting rates tailored for high-quality execution.</p>
+                </div>
+
+                <div class="services-grid" id="servicesGrid">
+                    <!-- Dynamic Services Rendering by JS -->
+                </div>
+
+                <div class="disclaimer-banner">
+                    <strong>Notice:</strong> Prices shown are starting labour-only rates and may vary depending on project requirements, site conditions, materials, design, and scope of work. Contact us for an accurate quotation.
+                </div>
+            </div>
+        </section>
+
+        <!-- REVIEWS PAGE VIEW -->
+        <section id="reviews-view" class="page-view section-padding">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-title-tag">Testimonials</span>
+                    <h2 class="section-title">What Our Clients Say</h2>
+                    <p class="section-subtitle">Real feedback from residential and commercial property owners.</p>
+                </div>
+
+                <div class="reviews-container">
+                    <div class="reviews-wrapper" id="reviewsWrapper">
+                        <!-- Review slides rendered by JS -->
+                    </div>
+                    <div class="carousel-controls">
+                        <button class="carousel-btn" onclick="prevReview()">&#10094;</button>
+                        <button class="carousel-btn" onclick="nextReview()">&#10095;</button>
+                    </div>
+                </div>
+
+                <div class="google-review-cta">
+                    <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem; color: #FFFFFF;">Happy with our service?</h3>
+                    <p style="color: #94A3B8; margin-bottom: 1.5rem;">Share your experience with us on Google and help others build better.</p>
+                    <a id="googleReviewBtn" href="#" target="_blank" class="btn-primary">Review Us on Google</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALLERY PAGE VIEW -->
+        <section id="gallery-view" class="page-view section-padding">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-title-tag">Portfolio Showcase</span>
+                    <h2 class="section-title">Workmanship Gallery</h2>
+                    <p class="section-subtitle">Explore photos from our recent construction and renovation sites.</p>
+                </div>
+
+                <div class="filter-buttons" id="galleryFilterButtons">
+                    <button class="filter-btn active" onclick="filterGallery('all', this)">All</button>
+                    <button class="filter-btn" onclick="filterGallery('Construction', this)">Construction</button>
+                    <button class="filter-btn" onclick="filterGallery('Interior', this)">Interior</button>
+                    <button class="filter-btn" onclick="filterGallery('Painting', this)">Painting</button>
+                    <button class="filter-btn" onclick="filterGallery('Electrical', this)">Electrical</button>
+                    <button class="filter-btn" onclick="filterGallery('Plumbing', this)">Plumbing</button>
+                </div>
+
+                <div class="gallery-grid" id="galleryGrid">
+                    <!-- Gallery Items Rendered JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- OUR PROJECTS PAGE VIEW -->
+        <section id="projects-view" class="page-view section-padding">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-title-tag">Case Studies</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">Delivering precision engineering across diverse structural sectors.</p>
+                </div>
+
+                <div class="filter-buttons" id="projectFilterButtons">
+                    <button class="filter-btn active" onclick="filterProjects('all', this)">All</button>
+                    <button class="filter-btn" onclick="filterProjects('Residential', this)">Residential</button>
+                    <button class="filter-btn" onclick="filterProjects('Commercial', this)">Commercial</button>
+                    <button class="filter-btn" onclick="filterProjects('Interior', this)">Interior</button>
+                    <button class="filter-btn" onclick="filterProjects('Renovation', this)">Renovation</button>
+                </div>
+
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Project Cards Rendered JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT US PAGE VIEW -->
+        <section id="about-view" class="page-view section-padding">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-title-tag">Who We Are</span>
+                    <h2 class="section-title">Engineering Structural Excellence</h2>
+                    <p class="section-subtitle">We build with safety, integrity, and durable modern craftsmanship.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div>
+                        <h3 style="font-size: 1.8rem; color: var(--text-dark); margin-bottom: 1rem; font-weight: 800;">Our Mission & Vision</h3>
+                        <p style="color: var(--text-body); margin-bottom: 1.25rem;">
+                            3N Builders was established with a singular vision: to elevate construction standards through uncompromising material verification, skilled artisan labor, and transparent sq.ft pricing models.
+                        </p>
+                        <p style="color: var(--text-body);">
+                            Whether it's laying foundational steel or finalizing detailed interior woodwork, our team ensures every phase adheres strictly to standard engineering safety protocols.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="/asstes/logo.png" alt="3N Builders project site meeting" style="width: 100%; height: auto; border-radius: var(--radius-md); box-shadow: var(--shadow-lg);" onerror="this.src='assets/images/service-building.jpg'">
+                    </div>
+                </div>
+
+                <!-- Process Timeline -->
+                <div class="text-center">
+                    <span class="section-title-tag">Step-by-Step</span>
+                    <h2 class="section-title">Our Execution Process</h2>
+                </div>
+
+                <div class="process-timeline">
+                    <div class="timeline-step">
+                        <div class="step-number">01</div>
+                        <div class="step-card">
+                            <div class="step-title">Consultation</div>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);">Initial meeting to understand site layout, requirements, and structural goals.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="step-number">02</div>
+                        <div class="step-card">
+                            <div class="step-title">Site Visit</div>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);">Engineers inspect soil, plot boundaries, and measure exact sq.ft dimensions.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="step-number">03</div>
+                        <div class="step-card">
+                            <div class="step-title">Estimate</div>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);">Itemized transparent calculation of labour and material options.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="step-number">04</div>
+                        <div class="step-card">
+                            <div class="step-title">Planning</div>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);">Architectural blue-prints, timeline milestone maps, and safety approvals.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="step-number">05</div>
+                        <div class="step-card">
+                            <div class="step-title">Execution</div>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);">On-site construction led by experienced site supervisors and skilled workers.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="step-number">06</div>
+                        <div class="step-card">
+                            <div class="step-title">Final Inspection</div>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);">Quality review, safety check, site handover, and post-service warranty support.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT PAGE VIEW -->
+        <section id="contact-view" class="page-view section-padding">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-title-tag">Get In Touch</span>
+                    <h2 class="section-title">Contact Our Project Managers</h2>
+                    <p class="section-subtitle">Have a question or need an immediate site estimate?</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div>
+                        <div style="background: var(--surface); padding: 2rem; border-radius: var(--radius-md); border: 1px solid var(--border); box-shadow: var(--shadow-sm); margin-bottom: 2rem;">
+                            <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--text-dark); margin-bottom: 1rem;">Direct Line</h3>
+                            <p style="margin-bottom: 0.5rem; font-weight: 700; color: var(--primary);">Phone: <span class="config-phone">+91 63740 06026</span></p>
+                            <p style="margin-bottom: 1.5rem; font-weight: 700; color: var(--primary);">WhatsApp: <span class="config-phone">+91 63740 06026</span></p>
+                            <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+                                <a href="tel:+916374006026" class="btn-primary" style="padding: 0.5rem 1rem; font-size: 0.85rem;">Call Now</a>
+                                <button class="btn-secondary" onclick="openWhatsAppDirect('General Enquiry')" style="padding: 0.5rem 1rem; font-size: 0.85rem; background: #25D366; border-color: #25D366; color: #FFFFFF;">WhatsApp</button>
+                            </div>
+                        </div>
+
+                        <div style="background: var(--surface); padding: 2rem; border-radius: var(--radius-md); border: 1px solid var(--border); box-shadow: var(--shadow-sm);">
+                            <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--text-dark); margin-bottom: 1rem;">Operating Hours</h3>
+                            <p style="color: var(--text-body); font-size: 0.95rem;">Monday – Saturday: 8:00 AM – 7:00 PM</p>
+                            <p style="color: var(--text-body); font-size: 0.95rem;">Sunday: Closed (Emergency Support Available)</p>
+                        </div>
+                    </div>
+
+                    <!-- Contact Direct Form -->
+                    <div style="background: var(--surface); padding: 2.5rem; border-radius: var(--radius-md); border: 1px solid var(--border); box-shadow: var(--shadow-sm);">
+                        <form id="contactForm" onsubmit="handleContactSubmit(event)">
+                            <div class="form-group">
+                                <label class="form-label">Full Name *</label>
+                                <input type="text" id="contactName" class="form-control" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Phone Number *</label>
+                                <input type="tel" id="contactPhone" class="form-control" placeholder="10-digit mobile number" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Location / Address *</label>
+                                <input type="text" id="contactAddress" class="form-control" placeholder="City or Project Site" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Message / Details</label>
+                                <textarea id="contactMessage" class="form-control" rows="4" placeholder="Describe your construction or renovation needs..."></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary" style="width: 100%;">Send Message on WhatsApp</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Booking Modal -->
+    <div class="modal-backdrop" id="bookingModal">
+        <div class="modal-box">
+            <span class="modal-close-btn" onclick="closeBookingModal()">&times;</span>
+            <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--text-dark); margin-bottom: 0.5rem;">Service Booking & Estimate</h3>
+            <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1.5rem;">Fill details to calculate labour estimate and submit instantly via WhatsApp.</p>
+
+            <form id="bookingForm" onsubmit="handleBookingSubmit(event)">
+                <div class="form-group">
+                    <label class="form-label">Full Name *</label>
+                    <input type="text" id="bookName" class="form-control" placeholder="Enter full name" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label">Phone Number *</label>
+                        <input type="tel" id="bookPhone" class="form-control" placeholder="Mobile number" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Select Service *</label>
+                        <select id="bookService" class="form-control" onchange="calculateEstimate()" required>
+                            <option value="building">Building Work (₹350/sq.ft)</option>
+                            <option value="carpenter">Carpenter Work (₹150/sq.ft)</option>
+                            <option value="painting">Painting Work (₹100/sq.ft)</option>
+                            <option value="interior">Interior Work (₹350/sq.ft)</option>
+                            <option value="electrical">Electrical Work (₹75/sq.ft)</option>
+                            <option value="plumbing">Plumbing Work (₹100/sq.ft)</option>
+                            <option value="cleaning">Cleaning Work (₹15/sq.ft)</option>
+                            <option value="iron">Iron Work (₹120/sq.ft)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label">Area (Sq. Ft.) *</label>
+                        <input type="number" id="bookArea" class="form-control" min="1" value="1000" oninput="calculateEstimate()" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Preferred Date</label>
+                        <input type="date" id="bookDate" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Address / Project Location *</label>
+                    <input type="text" id="bookAddress" class="form-control" placeholder="Site Location" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Additional Requirements</label>
+                    <textarea id="bookNotes" class="form-control" rows="2" placeholder="Specific notes..."></textarea>
+                </div>
+
+                <!-- Price Calculation Display -->
+                <div class="price-estimate-box">
+                    <div class="estimate-label">Estimated Labour Cost</div>
+                    <div class="estimate-amount" id="estimateDisplay">₹3,50,000</div>
+                    <div class="estimate-note">This is an estimated labour-only price. Final pricing confirmed after site inspection.</div>
+                </div>
+
+                <button type="submit" class="btn-primary" style="width: 100%;">Confirm & Send on WhatsApp</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Lightbox Popup Modal -->
+    <div class="lightbox-modal" id="lightboxModal">
+        <div class="lightbox-content">
+            <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+            <span class="lightbox-nav lightbox-prev" onclick="navLightbox(-1)">&#10094;</span>
+            <img id="lightboxImg" src="" alt="Gallery Preview">
+            <span class="lightbox-nav lightbox-next" onclick="navLightbox(1)">&#10095;</span>
+        </div>
+    </div>
+
+    <!-- Project Detail Modal -->
+    <div class="modal-backdrop" id="projectModal">
+        <div class="modal-box">
+            <span class="modal-close-btn" onclick="closeProjectModal()">&times;</span>
+            <div id="projectModalContent">
+                <!-- JS populated -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Actions -->
+    <a href="https://wa.me/916374006026" class="floating-whatsapp" target="_blank" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 32 32"><path d="M16 2A13 13 0 0 0 3.12 19.38L2 29.88l10.72-2.8A13 13 0 1 0 16 2zm0 23.8a10.74 10.74 0 0 1-5.48-1.5l-.39-.23-6.38 1.67 1.7-6.22-.26-.41A10.77 10.77 0 1 1 16 25.8z"/><path d="M22.08 18.25c-.33-.17-1.95-.96-2.25-1.07s-.52-.17-.74.17-.86 1.07-1.05 1.28-.39.24-.72.08a9.12 9.12 0 0 1-2.68-1.65 10.06 10.06 0 0 1-1.85-2.31c-.19-.33 0-.5.15-.66s.33-.39.49-.58a2.27 2.27 0 0 0 .33-.55.61.61 0 0 0 0-.58c-.08-.17-.74-1.78-1-2.44s-.54-.56-.74-.56h-.63a1.21 1.21 0 0 0-.88.41 3.7 3.7 0 0 0-1.15 2.75 6.44 6.44 0 0 0 1.35 3.42c.17.22 2.31 3.53 5.6 4.95a18.84 18.84 0 0 0 1.87.69 4.5 4.5 0 0 0 2.07.13 3.38 3.38 0 0 0 2.22-1.57 2.74 2.74 0 0 0 .19-1.57c-.08-.13-.32-.21-.65-.38z"/></svg>
+    </a>
+
+    <button class="scroll-to-top" id="scrollTopBtn" onclick="scrollToTop()" aria-label="Scroll to top">↑</button>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <a href="#home" class="logo-box" style="margin-bottom: 1rem; inline-size: fit-content;">
+                        <img src="/asstes/logo.png" alt="3N Builders Company Logo" class="logo-img" onerror="this.style.display='none'">
+                    </a>
+                    <p style="font-size: 0.9rem; line-height: 1.6;">
+                        Delivering reliable civil construction, renovation, interior woodwork, and site execution with maximum efficiency.
+                    </p>
+                </div>
+
+                <div>
+                    <div class="footer-col-title">Quick Links</div>
+                    <ul class="footer-links">
+                        <li><a href="#home" onclick="navigateTo('home')">Home</a></li>
+                        <li><a href="#services" onclick="navigateTo('services')">Services</a></li>
+                        <li><a href="#reviews" onclick="navigateTo('reviews')">Reviews</a></li>
+                        <li><a href="#gallery" onclick="navigateTo('gallery')">Gallery</a></li>
+                        <li><a href="#projects" onclick="navigateTo('projects')">Our Projects</a></li>
+                        <li><a href="#about" onclick="navigateTo('about')">About Us</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="footer-col-title">Services</div>
+                    <ul class="footer-links">
+                        <li><a href="#services" onclick="navigateTo('services')">Building Work</a></li>
+                        <li><a href="#services" onclick="navigateTo('services')">Carpenter Work</a></li>
+                        <li><a href="#services" onclick="navigateTo('services')">Painting Work</a></li>
+                        <li><a href="#services" onclick="navigateTo('services')">Interior Work</a></li>
+                        <li><a href="#services" onclick="navigateTo('services')">Electrical Work</a></li>
+                        <li><a href="#services" onclick="navigateTo('services')">Plumbing Work</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="footer-col-title">Contact & Socials</div>
+                    <p style="font-size: 0.9rem; margin-bottom: 0.5rem;">Phone: <span class="config-phone">+91 63740 06026</span></p>
+                    <p style="font-size: 0.9rem; margin-bottom: 0.5rem;">WhatsApp: <span class="config-phone">+91 63740 06026</span></p>
+                    <p style="font-size: 0.9rem; margin-bottom: 0.75rem;">Location: Madurai & TN</p>
+                    
+                    <!-- Social Media Links with Logos -->
+                    <div class="footer-socials">
+                        <a href="https://facebook.com/3nbuilders" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H7.5v-3H10V9.5C10 7.01 11.49 5.65 13.72 5.65c1.07 0 2.18.19 2.18.19v2.4h-1.23c-1.23 0-1.61.77-1.61 1.56V12h2.7l-.43 3h-2.27v6.8c4.56-.93 8-4.96 8-9.8z"/></svg>
+                        </a>
+                        <a href="https://instagram.com/3nbuilders" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="https://twitter.com/3nbuilders" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        </a>
+                        <a href="https://linkedin.com/company/3nbuilders" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>&copy; 2026 3N Builders. All Rights Reserved.</div>
+                <div>Designed for structural quality & performance.</div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        /* CONFIGURATION OBJECT */
+        const CONFIG = {
+            companyName: "3N BUILDERS",
+            phone: "+916374006026",
+            whatsapp: "916374006026",
+            location: "Madurai & Surrounding Areas",
+            googleReviewURL: "https://search.google.com/local/writereview",
+            instagramURL: "https://instagram.com",
+            facebookURL: "https://facebook.com",
+            websiteURL: "https://3nbuilders.com"
+        };
+
+        /* SERVICES RATES CONFIGURATION (LABOUR ONLY) */
+        const SERVICES_DATA = [
+            { id: "building", title: "Building Work", rate: 350, img: "/asstes/service-building.png", desc: "Foundation brickwork, RCC layout framing, structural plastering & concrete slab casting." },
+            { id: "carpenter", title: "Carpenter Work", rate: 150, img: "/asstes/Carpenter.png", desc: "Custom cabinetry, teak door frames, window shutters, modular setups & structural woodwork." },
+            { id: "painting", title: "Painting Work", rate: 100, img: "/asstes/painting.png", desc: "Wall putty sanding, weather-shield exterior coating, and premium interior finish application." },
+            { id: "interior", title: "Interior Work", rate: 350, img: "/asstes/interior.png", desc: "False ceiling, TV unit panelling, modular kitchen installation & decorative lighting design." },
+            { id: "electrical", title: "Electrical Work", rate: 75, img: "/asstes/electrical.png", desc: "Concealed conduit wiring, distribution box fitting, switchboard installation & safety earthing." },
+            { id: "plumbing", title: "Plumbing Work", rate: 100, img: "/asstes/plumbing.png", desc: "CPVC/PVC pipe routing, sanitary fixture fitting, water tank connections & leak checks." },
+            { id: "iron", title: "Iron Work", rate: 120, img: "/asstes/iron.png", desc: "Structural steel welding, safety grill fabrication, compound gates & staircase handrails." },
+            { id: "cleaning", title: "Cleaning Work", rate: 15, img: "/asstes/cleaning.png", desc: "Post-construction debris removal, tile stain scrubbing, deep chemical cleaning & sanitization." },
+            
+        ];
+
+        /* REVIEWS DATA */
+        const REVIEWS_DATA = [
+            { name: "Suresh Kumar", service: "Building Work", quote: "3N Builders constructed our 2400 sq.ft duplex smoothly. The structural quality is solid and labour pricing transparent.", rating: 5 },
+            { name: "Meena Ramesh", service: "Interior Work", quote: "Their interior woodworking and false ceiling transformed our apartment completely. Completed right on schedule!", rating: 5 },
+            { name: "Anand Verma", service: "Painting & Electrical", quote: "Highly professional electrician and painter team. Clear sq.ft estimation with zero hidden charges.", rating: 5 }
+        ];
+
+        /* GALLERY DATA */
+        const GALLERY_DATA = [
+            { category: "Construction", title: "Residential Villa Framing", img: "/asstes/Construction 1.png" },
+            { category: "Interior", title: "Modern Living Modular Setup", img: "/asstes/Interior g.png" },
+            { category: "Painting", title: "Exterior Weather Coating", img: "/asstes/Painting g.png" },
+            { category: "Electrical", title: "Concealed Distribution Box", img: "/asstes/Electrical.png" },
+            { category: "Plumbing", title: "Bathroom Pipe Assembly", img: "/asstes/Plumbing.png" },
+            { category: "Construction", title: "Commercial Foundation Laying", img: "/asstes/Construction 2.png" }
+        ];
+
+        /* PROJECTS DATA */
+        const PROJECTS_DATA = [
+            { id: "p1", name: "Modern Residential Villa", category: "Residential", location: "Madurai", status: "Completed", desc: "Full structural build with premium interior finishing and custom iron entry gate.", img: "/asstes/Projects 1.jpeg" },
+            { id: "p2", name: "Luxury Apartment Interior", category: "Interior", location: "Madurai", status: "Completed", desc: "Complete modular teak woodworking, LED ceiling lighting, and wall painting.", img: "/asstes/Projects 2.webp" },
+            { id: "p3", name: "Commercial Office Complex", category: "Commercial", location: "Tamil Nadu", status: "Completed", desc: "Multi-floor steel frame RCC structure, plumbing network, and safety wiring.", img: "/asstes/Projects 3.webp" },
+            { id: "p4", name: "Independent House Renovation", category: "Renovation", location: "Madurai", status: "Completed", desc: "Full floor tile replacement, exterior re-painting, and plumbing upgrade.", img: "/asstes/Projects 4.jpg" }
+        ];
+
+        /* INITIALIZATION ON DOM LOAD */
+        document.addEventListener("DOMContentLoaded", function() {
+            // Populate Config Text
+            document.getElementById("heroLocation").textContent = "Serving " + CONFIG.location;
+            document.getElementById("googleReviewBtn").href = CONFIG.googleReviewURL;
+
+            // Render Modules
+            renderServices();
+            renderReviews();
+            renderGallery(GALLERY_DATA);
+            renderProjects(PROJECTS_DATA);
+
+            // Handle SPA Hash Navigation
+            window.addEventListener("hashchange", handleHashNavigation);
+            handleHashNavigation();
+
+            // Simulate Page Loading Screen Progress
+            let progress = 0;
+            const progressEl = document.getElementById("loaderProgress");
+            const loaderEl = document.getElementById("siteLoader");
+            const interval = setInterval(() => {
+                progress += 25;
+                if (progressEl) progressEl.style.width = progress + "%";
+                if (progress >= 100) {
+                    clearInterval(interval);
+                    setTimeout(() => {
+                        if (loaderEl) {
+                            loaderEl.style.opacity = "0";
+                            loaderEl.style.visibility = "hidden";
+                        }
+                    }, 200);
+                }
+            }, 100);
+
+            // Header Scroll Effect
+            window.addEventListener("scroll", function() {
+                const header = document.getElementById("siteHeader");
+                const scrollTopBtn = document.getElementById("scrollTopBtn");
+                if (window.scrollY > 50) {
+                    header.classList.add("scrolled");
+                } else {
+                    header.classList.remove("scrolled");
+                }
+                
+                if (window.scrollY > 300) {
+                    scrollTopBtn.classList.add("visible");
+                } else {
+                    scrollTopBtn.classList.remove("visible");
+                }
+            });
+
+            // Intersection Observer for Statistics Counter Animation
+            initCounterObserver();
+        });
+
+        /* SPA ROUTING LOGIC */
+        function navigateTo(route) {
+            window.location.hash = route;
+        }
+
+        function handleHashNavigation() {
+            const hash = window.location.hash.replace("#", "") || "home";
+            const validRoutes = ["home", "services", "reviews", "gallery", "projects", "about", "contact"];
+            const targetRoute = validRoutes.includes(hash) ? hash : "home";
+
+            // Hide all page views
+            document.querySelectorAll(".page-view").forEach(page => {
+                page.classList.remove("active-page");
+            });
+
+            // Show target route page view
+            const activePage = document.getElementById(targetRoute + "-view");
+            if (activePage) {
+                activePage.classList.add("active-page");
+            }
+
+            // Update active state in nav links
+            document.querySelectorAll(".nav-link").forEach(link => {
+                if (link.getAttribute("data-route") === targetRoute) {
+                    link.classList.add("active");
+                } else {
+                    link.classList.remove("active");
+                }
+            });
+
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+
+        /* MOBILE MENU TOGGLE */
+        function toggleMobileMenu() {
+            const drawer = document.getElementById("mobileDrawer");
+            const overlay = document.getElementById("drawerOverlay");
+            drawer.classList.toggle("open");
+            overlay.classList.toggle("open");
+        }
+
+        /* RENDER SERVICES */
+        function renderServices() {
+            const grid = document.getElementById("servicesGrid");
+            if (!grid) return;
+            grid.innerHTML = SERVICES_DATA.map(s => `
+                <div class="service-card">
+                    <div class="service-img-box">
+                        <img src="${s.img}" alt="${s.title} construction project" onerror="this.src='assets/images/service-building.jpg'">
+                        <span class="service-badge">Labour Only</span>
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">${s.title}</h3>
+                        <div class="service-price">
+                            Starting @ ₹${s.rate} / sq.ft
+                            <span class="labour-tag">Labour Only</span>
+                        </div>
+                        <p class="service-desc">${s.desc}</p>
+                        <button class="btn-primary" style="width: 100%; margin-top: auto;" onclick="openBookingModal('${s.id}')">Book Now</button>
+                    </div>
+                </div>
+            `).join("");
+        }
+
+        /* RENDER REVIEWS */
+        let currentReviewIndex = 0;
+        function renderReviews() {
+            const wrapper = document.getElementById("reviewsWrapper");
+            if (!wrapper) return;
+            wrapper.innerHTML = REVIEWS_DATA.map(r => `
+                <div class="review-card">
+                    <div class="stars-row">${"★".repeat(r.rating)}</div>
+                    <p class="review-quote">"${r.quote}"</p>
+                    <div class="reviewer-info">${r.name}</div>
+                    <div class="reviewer-service">Service: ${r.service}</div>
+                </div>
+            `).join("");
+        }
+
+        function nextReview() {
+            currentReviewIndex = (currentReviewIndex + 1) % REVIEWS_DATA.length;
+            updateReviewCarousel();
+        }
+
+        function prevReview() {
+            currentReviewIndex = (currentReviewIndex - 1 + REVIEWS_DATA.length) % REVIEWS_DATA.length;
+            updateReviewCarousel();
+        }
+
+        function updateReviewCarousel() {
+            const wrapper = document.getElementById("reviewsWrapper");
+            if (wrapper) wrapper.style.transform = `translateX(-${currentReviewIndex * 100}%)`;
+        }
+
+        /* RENDER GALLERY */
+        function renderGallery(items) {
+            const grid = document.getElementById("galleryGrid");
+            if (!grid) return;
+            grid.innerHTML = items.map((item, index) => `
+                <div class="gallery-item" onclick="openLightbox(${index})">
+                    <img src="${item.img}" alt="${item.title}" onerror="this.src='assets/images/service-building.jpg'">
+                    <div class="gallery-overlay">
+                        <div class="gallery-title">${item.title} (${item.category})</div>
+                    </div>
+                </div>
+            `).join("");
+        }
+
+        function filterGallery(category, btn) {
+            document.querySelectorAll("#galleryFilterButtons .filter-btn").forEach(b => b.classList.remove("active"));
+            if (btn) btn.classList.add("active");
+
+            if (category === "all") {
+                renderGallery(GALLERY_DATA);
+            } else {
+                const filtered = GALLERY_DATA.filter(i => i.category.toLowerCase() === category.toLowerCase());
+                renderGallery(filtered);
+            }
+        }
+
+        /* LIGHTBOX MODAL LOGIC */
+        let activeLightboxIndex = 0;
+        function openLightbox(index) {
+            activeLightboxIndex = index;
+            const modal = document.getElementById("lightboxModal");
+            const img = document.getElementById("lightboxImg");
+            img.src = GALLERY_DATA[index].img;
+            modal.classList.add("active");
+        }
+
+        function closeLightbox() {
+            document.getElementById("lightboxModal").classList.remove("active");
+        }
+
+        function navLightbox(direction) {
+            activeLightboxIndex = (activeLightboxIndex + direction + GALLERY_DATA.length) % GALLERY_DATA.length;
+            document.getElementById("lightboxImg").src = GALLERY_DATA[activeLightboxIndex].img;
+        }
+
+        /* RENDER PROJECTS */
+        function renderProjects(items) {
+            const grid = document.getElementById("projectsGrid");
+            if (!grid) return;
+            grid.innerHTML = items.map(p => `
+                <div class="project-card">
+                    <div class="project-img-box">
+                        <img src="${p.img}" alt="${p.name}" onerror="this.src='assets/images/service-building.jpg'">
+                        <span class="project-status">${p.status}</span>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">${p.name}</h3>
+                        <div class="project-meta">
+                            <span>Category: ${p.category}</span>
+                            <span>Location: ${p.location}</span>
+                        </div>
+                        <p class="project-desc">${p.desc}</p>
+                        <button class="btn-secondary" style="width:100%; color: var(--primary); border-color: var(--border);" onclick="openProjectModal('${p.id}')">View Project</button>
+                    </div>
+                </div>
+            `).join("");
+        }
+
+        function filterProjects(category, btn) {
+            document.querySelectorAll("#projectFilterButtons .filter-btn").forEach(b => b.classList.remove("active"));
+            if (btn) btn.classList.add("active");
+
+            if (category === "all") {
+                renderProjects(PROJECTS_DATA);
+            } else {
+                const filtered = PROJECTS_DATA.filter(p => p.category.toLowerCase() === category.toLowerCase());
+                renderProjects(filtered);
+            }
+        }
+
+        function openProjectModal(id) {
+            const project = PROJECTS_DATA.find(p => p.id === id);
+            if (!project) return;
+            const container = document.getElementById("projectModalContent");
+            container.innerHTML = `
+                <img src="${project.img}" alt="${project.name}" style="width:100%; height:240px; object-fit:cover; border-radius: var(--radius-sm); margin-bottom: 1rem;" onerror="this.src='assets/images/service-building.jpg'">
+                <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--text-dark); margin-bottom: 0.5rem;">${project.name}</h3>
+                <p style="color: var(--accent); font-weight: 700; margin-bottom: 1rem;">${project.category} | ${project.location}</p>
+                <p style="color: var(--text-body); margin-bottom: 1.5rem;">${project.desc}</p>
+                <button class="btn-primary" style="width:100%;" onclick="closeProjectModal(); openBookingModal();">Book Similar Project</button>
+            `;
+            document.getElementById("projectModal").classList.add("open");
+        }
+
+        function closeProjectModal() {
+            document.getElementById("projectModal").classList.remove("open");
+        }
+
+        /* BOOKING ESTIMATION & MODAL LOGIC */
+        function openBookingModal(serviceId) {
+            const modal = document.getElementById("bookingModal");
+            if (serviceId) {
+                const select = document.getElementById("bookService");
+                if (select) select.value = serviceId;
+            }
+            calculateEstimate();
+            modal.classList.add("open");
+        }
+
+        function closeBookingModal() {
+            document.getElementById("bookingModal").classList.remove("open");
+        }
+
+        function calculateEstimate() {
+            const serviceKey = document.getElementById("bookService").value;
+            const area = parseFloat(document.getElementById("bookArea").value) || 0;
+            const serviceObj = SERVICES_DATA.find(s => s.id === serviceKey);
+            const rate = serviceObj ? serviceObj.rate : 350;
+
+            const total = area * rate;
+            
+            // Format to Indian Rupees Currency
+            const formattedTotal = new Intl.NumberFormat('en-IN', {
+                style: 'currency',
+                currency: 'INR',
+                maximumFractionDigits: 0
+            }).format(total);
+
+            document.getElementById("estimateDisplay").textContent = formattedTotal;
+        }
+
+        /* WHATSAPP MESSAGE GENERATORS */
+        function handleBookingSubmit(event) {
+            event.preventDefault();
+
+            const name = document.getElementById("bookName").value.trim();
+            const phone = document.getElementById("bookPhone").value.trim();
+            const serviceKey = document.getElementById("bookService").value;
+            const serviceObj = SERVICES_DATA.find(s => s.id === serviceKey);
+            const serviceName = serviceObj ? serviceObj.title : serviceKey;
+            const rate = serviceObj ? serviceObj.rate : 0;
+            const area = document.getElementById("bookArea").value;
+            const date = document.getElementById("bookDate").value || "As soon as possible";
+            const address = document.getElementById("bookAddress").value.trim();
+            const notes = document.getElementById("bookNotes").value.trim() || "None";
+            const estimate = document.getElementById("estimateDisplay").textContent;
+
+            const message = `NEW SERVICE BOOKING\n\n` +
+                `Name: ${name}\n` +
+                `Phone: ${phone}\n\n` +
+                `Address: ${address}\n\n` +
+                `Service: ${serviceName}\n` +
+                `Area: ${area} Sq.Ft.\n` +
+                `Rate: ₹${rate}/sq.ft (Labour Only)\n` +
+                `Estimated Total: ${estimate}\n\n` +
+                `Preferred Date: ${date}\n` +
+                `Additional Requirements: ${notes}\n\n` +
+                `Thank you.`;
+
+            const encodedURL = `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(message)}`;
+            window.open(encodedURL, "_blank");
+            closeBookingModal();
+        }
+
+        function handleContactSubmit(event) {
+            event.preventDefault();
+
+            const name = document.getElementById("contactName").value.trim();
+            const phone = document.getElementById("contactPhone").value.trim();
+            const address = document.getElementById("contactAddress").value.trim();
+            const messageText = document.getElementById("contactMessage").value.trim() || "General Enquiry";
+
+            const message = `NEW CONTACT ENQUIRY\n\n` +
+                `Name: ${name}\n` +
+                `Phone: ${phone}\n` +
+                `Location: ${address}\n` +
+                `Details: ${messageText}`;
+
+            const encodedURL = `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(message)}`;
+            window.open(encodedURL, "_blank");
+        }
+
+        function openWhatsAppDirect(context) {
+            const message = `Hello ${CONFIG.companyName}, I would like to inquire about: ${context}`;
+            window.open(`https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(message)}`, "_blank");
+        }
+
+        /* ANIMATED COUNTER ON SCROLL */
+        function initCounterObserver() {
+            const counters = document.querySelectorAll(".counter");
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const counter = entry.target;
+                        const target = +counter.getAttribute("data-target");
+                        let count = 0;
+                        const speed = target / 40;
+
+                        const updateCount = () => {
+                            count += speed;
+                            if (count < target) {
+                                counter.innerText = Math.ceil(count);
+                                setTimeout(updateCount, 30);
+                            } else {
+                                counter.innerText = target;
+                            }
+                        };
+                        updateCount();
+                        observer.unobserve(counter);
+                    }
+                });
+            }, { threshold: 0.5 });
+
+            counters.forEach(c => observer.observe(c));
+        }
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+    </script>
+</body>
+</html>
